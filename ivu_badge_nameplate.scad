@@ -26,14 +26,26 @@ module namePlateCube(){
     translate([ 0, -10, 3]) color("WHITE") roundedSoftSquare(height = height - 3, width = width, length = length/2 + 6, r1=0, r2=0.5);
     
 }
+
+textStr = "JWNS";
+
+textStr = "jwns";
+textFont = "Source Code Pro:style=SemiBold";
+fontSize=26;
+// textStr = "SldOUw==";
+// textFont = "Ac437 IBM BIOS";
+// fontSize=10;
+
+textDepth = 1.8;
+// textFont = "Helvetica:style=Bold";
+
+
+// difference () {
+
 namePlateCube();
-textStr = "Hello";
-textDepth = 2;
-textFont = "Helvetica:style=Bold";
 
-
-color("ORANGE") translate([ 0,  - 10, height - 1]) linear_extrude(height=textDepth)
-            text("JSTUTZ", size=19, font=textFont,
+color("RED") translate([ 0,  - 10, height + 0.5]) linear_extrude(height=textDepth)
+            text(textStr, fontSize, font=textFont,
                  halign="center", valign="center");
 
-
+// }

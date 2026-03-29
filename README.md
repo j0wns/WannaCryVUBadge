@@ -2,6 +2,10 @@
 
 If you wanna make your own counterfeit IVU badge that is better than the original, you gotta think outside the shell. Welcome to CODING YOUR OWN BADGE. Check it out. Look around. Have fun. Make a PR! 
 
+![Nametag Assembled](image.png)
+
+![Back of nametag](image-1.png)
+
 ## Overview
 
 This project provides OpenSCAD models and DXF graphics to create custom 3D-printed badges with magnetic mounting capabilities.
@@ -34,7 +38,7 @@ This project provides OpenSCAD models and DXF graphics to create custom 3D-print
 - **Multi-Color Support** - Use ColorSCAD for multi-color printing
 - **DXF Logo Integration** - Import vector graphics as logos
   - Use Inkscape to edit the SVG and export it as a DXF12
-
+- **NFC Tag** Divot for round NFC tag if desired
 ## Usage
 
 ### Basic Compilation
@@ -43,7 +47,7 @@ This project provides OpenSCAD models and DXF graphics to create custom 3D-print
 3. Render and export as STL for 3D printing
 
 ### Multi-Color Printing
-Use [ColorSCAD](https://github.com/Jonatino/ColorSCAD) to compile with multiple colors:
+Use [ColorSCAD](https://github.com/jschobben/colorscad) to compile with multiple colors:
 ```bash
 colorscad <file.scad> <output.3mf>
 ```
